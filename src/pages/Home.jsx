@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <MoviesSlider title="upcoming" />
+      <MoviesSlider title="now_playing" />
+      <MoviesSlider title="top_rated" />
     </div>
   );
 };

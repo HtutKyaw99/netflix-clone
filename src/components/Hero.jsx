@@ -42,10 +42,10 @@ const Hero = () => {
           <h3 className="font-bold text-3xl md:text-6xl my-3">
             {movie?.title}
           </h3>
-          <button className="px-5 py-2 bg-gray-300 border border-gray-300 text-black">
+          <button className="px-5 py-2 bg-gray-300 border border-gray-300 text-black hover:bg-transparent hover:text-white">
             Play
           </button>
-          <button className="ml-3 px-5 py-2 text-white border border-gray-300">
+          <button className="ml-3 px-5 py-2 text-white border border-gray-300 hover:bg-gray-300 hover:border-0 hover:text-black ">
             Watch Later
           </button>
           <p className="text-gray-400 mb-3 mt-6">
